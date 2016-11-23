@@ -1,0 +1,126 @@
+﻿
+/*GENERAL*/
+
+#wrapper{
+    margin:2%;
+	width: 90%;	
+    float:right;   
+}
+#header{
+    width:100%;
+    height:150px;
+}
+#logo{
+    float:right;
+    width: 20%;
+    display:inline;
+}
+a { 
+    text-decoration: none; 
+    color:#4a196a;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: none; 
+    color: #9e1f20; 
+}
+body {
+    background-color: #F7F7F7;
+    color: #323232;
+    font: 1em  arial,helvetica,clean,sans-serif;
+}
+.selected_value{ 
+    color:#9e1f20;
+    font-weight:  bold ;
+    width:100px;
+}
+
+/*NAVIGATION*/
+
+nav {
+    width:60%;
+    margin: 0 auto;
+    float:right;
+    text-align:center;
+}
+ nav ul {
+	list-style: none;
+    text-align:center;
+    display: table;    
+	margin: 0 auto;
+}
+ nav ul li {	
+    text-align: center;
+	display: block;
+    float:right;
+    list-style:none;	
+    padding-top: 10px;   
+    margin:10px;
+    border: 2px solid #3ec2f3;
+}
+
+ nav ul li a {
+    width: 100px;
+    height: 30px;
+	text-align: center;
+	font-weight: 400;	
+	display:inline-block;
+    text-decoration:none;
+    float:right;
+}
+
+
+ /*LAYOUT*/
+
+#div00, #div01, #div02,  #div03, #div04{
+	width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    float:right;
+    text-align:center;
+}
+
+.space{
+    padding-top:50px;
+    width:100%;
+}
+
+
+span {
+    padding-right:10px;
+}
+
+/*CONTROL*/
+
+.button01{
+    font:  1em 'Simple', Ariel,'Tahoma';
+	text-align: center;
+	height:28px;
+    width:98px;
+    cursor: pointer;
+    color: #323232;
+    background-color: #F7F7F7;
+    border: 2px solid #3ec2f3;
+	 }
+
+/*TEXT*/
+
+h1{
+    font-size: 1.5em;
+    padding-bottom:10px;
+    font-weight:normal;
+    margin-top:0px;
+}
+h2{
+    font-size: 1.5em;
+    padding-bottom:10px;
+    font-weight:normal;
+    margin-top:0px;
+    text-align:center;
+}
+.tex01{
+	 	color: #3ec2f3;
+	 }
+.text02{
+	 	color: #cc0000;
+	 }
