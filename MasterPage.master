@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>אלעד מערכות</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>    
+    <form id="form_main" runat="server" dir="rtl">
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager" EnablePageMethods="true"  runat="server" EnableScriptGlobalization="True"></asp:ToolkitScriptManager>  
+        <div id="wrapper">
+        <div id="header">
+        <div id="logo">
+            <asp:Image ID="img_logo" runat="server" ImageUrl="img/logo.png"  />
+        </div>
+               <nav >
+				    <ul>
+					    <li><a href="Default.aspx" >ראשי</a></li>
+                        <li><a href="About.aspx" >אודות המערכת</a></li>
+				    </ul>
+			    </nav>  
+            </div><%--Header--%>        
+        <asp:ContentPlaceHolder id="cph_main_content" runat="server"></asp:ContentPlaceHolder>
+    </div><%--Wrapper--%>  
+    </form>
+</body>
+</html>
